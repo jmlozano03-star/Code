@@ -90,9 +90,9 @@ public class Carrera_Aritmetica {
 
 
         // Salida del sistema 
-
-        System.out.println("Mes" + mes);
-        System.out.println( "Salida de ETAPA 5: " + salida);
+        System.out.println("============ Resultado");
+        System.out.println("Mes:   " + mes);
+        System.out.printf( "Salida de ETAPA 5: %.4f%n ", salida);
 
 
 
