@@ -45,7 +45,7 @@ public class Examen2parcial_lozano_Mariano {
 
                 int codigo;
 
-                // Validar codigo
+                
                 do {
                     System.out.print("Codigo del producto (1-4): ");
                     codigo = Integer.parseInt(sc.nextLine());
@@ -92,7 +92,7 @@ public class Examen2parcial_lozano_Mariano {
                         break;
                 }
 
-                // Registrar venta
+               
                 vendidos[codigo - 1] += cantidad;
                 totalCliente += importe;
 
@@ -171,3 +171,4 @@ public class Examen2parcial_lozano_Mariano {
         sc.close();
     }
 }
+        
